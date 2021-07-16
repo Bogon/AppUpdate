@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AppUpdate'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AppUpdate.'
+  s.summary          = 'AppUpdate 是iOS端APP更新类库.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  AppUpdate 是iOS端APP更新类库.
                        DESC
 
   s.homepage         = 'https://github.com/Bogon/AppUpdate'
@@ -28,15 +28,17 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Bogon/AppUpdate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'AppUpdate/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AppUpdate' => ['AppUpdate/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'AppUpdate' => ['AppUpdate/**/*.{xib,png,jpg,xcassets}']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.public_header_files = 'Pod/Classes/**/*'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'Alamofire', '~> 4.8.2'
+  s.dependency 'HandyJSON', '~> 5.0.2'
+  s.dependency 'SwiftyJSON'
 end

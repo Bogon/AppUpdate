@@ -1,15 +1,30 @@
 PODS:
-  - AppUpdate (0.1.0)
+  - Alamofire (4.8.2)
+  - AppUpdate (0.1.0):
+    - Alamofire (~> 4.8.2)
+    - HandyJSON (~> 5.0.2)
+    - SwiftyJSON
+  - HandyJSON (5.0.2)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - AppUpdate (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   AppUpdate:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppUpdate: 79a9b967abdfc8d13611d2e5507eb17a9a8f924a
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AppUpdate: 82abf2c5d698f096c58bb3814abf6a03ace0f012
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
 PODFILE CHECKSUM: 0f5d981fa7caad98f8e676c2faff723743d22604
 

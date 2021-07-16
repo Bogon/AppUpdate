@@ -1,8 +1,8 @@
 {
   "name": "AppUpdate",
   "version": "0.1.0",
-  "summary": "A short description of AppUpdate.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "AppUpdate 是iOS端APP更新类库.",
+  "description": "AppUpdate 是iOS端APP更新类库.",
   "homepage": "https://github.com/Bogon/AppUpdate",
   "license": {
     "type": "MIT",
@@ -16,7 +16,27 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "AppUpdate/Classes/**/*"
+  "source_files": "AppUpdate/Classes/**/*",
+  "resource_bundles": {
+    "AppUpdate": [
+      "AppUpdate/**/*.{xib,png,jpg,xcassets}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.8.2"
+    ],
+    "HandyJSON": [
+      "~> 5.0.2"
+    ],
+    "SwiftyJSON": [
+
+    ]
+  }
 }
