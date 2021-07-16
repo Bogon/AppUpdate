@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.8.2)
-  - AppUpdate (0.1.0):
+  - AppUpdate (0.1.1):
     - Alamofire (~> 4.8.2)
     - HandyJSON (~> 5.0.2)
     - SwiftyJSON
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  AppUpdate: 82abf2c5d698f096c58bb3814abf6a03ace0f012
+  AppUpdate: b289de13f723b89f55c5ac07726fb0ed17426c96
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 

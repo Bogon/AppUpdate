@@ -1,8 +1,8 @@
 {
   "name": "AppUpdate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "AppUpdate 是iOS端APP更新类库.",
-  "description": "AppUpdate 是iOS端APP更新类库.",
+  "description": "AppUpdate 是iOS端APP更新类库，方便app接入减少重复造轮子。",
   "homepage": "https://github.com/Bogon/AppUpdate",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Bogon/AppUpdate.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
