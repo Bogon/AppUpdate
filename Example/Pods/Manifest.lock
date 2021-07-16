@@ -1,0 +1,16 @@
+PODS:
+  - AppUpdate (0.1.0)
+
+DEPENDENCIES:
+  - AppUpdate (from `../`)
+
+EXTERNAL SOURCES:
+  AppUpdate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppUpdate: 79a9b967abdfc8d13611d2e5507eb17a9a8f924a
+
+PODFILE CHECKSUM: 0f5d981fa7caad98f8e676c2faff723743d22604
+
+COCOAPODS: 1.10.1
