@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'AppUpdate'
 ```
 
+## Requirements
+`AppUpdate` is written in Swift 5.0 Compatible with iOS 10.0+
+
 ## Usage
 ```Swift
 UpdateProvider.shared.updateVersion(update_url: "https://xxxxxxx", channel: "distrbution")
