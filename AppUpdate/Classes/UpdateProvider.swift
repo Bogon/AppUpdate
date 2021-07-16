@@ -34,10 +34,10 @@ public class UpdateProvider: NSObject {
     
     /// App Check Version, Reminder Update.
     ///
-    /// - Parameter update_url: check app version url
-    /// - Parameter channel: method of distribution - developer,distribute
-    /// - Parameter bundleID: app bundle id, default current app bundle id
-    /// - note: please read readME.md.
+    /// - parameter update_url: check app version url
+    /// - parameter channel: method of distribution - developer,distribute
+    /// - parameter bundleID: app bundle id, default current app bundle id
+    /// - note: please read README.md.
     @objc public func updateVersion(update_url: String, channel: String, bundleID: String = "") {
 
         let bundleIdentifier:String = Bundle.main.bundleIdentifier!

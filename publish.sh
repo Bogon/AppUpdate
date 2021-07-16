@@ -2,14 +2,14 @@
 # 提交修改，推到主分支
 echo '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 git add .
-git commit -m "release 0.1.0"
+git commit -m "release 0.1.1"
 git push -u origin main
 
 echo '+++++++++++++++++++++++++++ commit successful ++++++++++++++++++++'
 
 # 注意需要修改当前的版本号
 echo '+++++++++++++++++++++++++++ pushing tags ++++++++++++++++++++'
-git tag 0.1.0
+git tag 0.1.1
 git push --tags
 
 echo '+++++++++++++++++++++++++++ pushing successful ++++++++++++++++++++'

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppUpdate'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'AppUpdate 是iOS端APP更新类库.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  AppUpdate 是iOS端APP更新类库.
+  AppUpdate 是iOS端APP更新类库，方便app接入减少重复造轮子。
                        DESC
 
   s.homepage         = 'https://github.com/Bogon/AppUpdate'
