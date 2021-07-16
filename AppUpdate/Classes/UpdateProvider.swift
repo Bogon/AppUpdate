@@ -41,7 +41,6 @@ public class UpdateProvider: NSObject {
     @objc public func updateVersion(update_url: String, channel: String, bundleID: String = "") {
 
         let bundleIdentifier:String = Bundle.main.bundleIdentifier!
-        
         Alamofire.request(URL(string: update_url)!, method: .post, parameters: ["packname": bundleID.isEmpty ? bundleIdentifier : bundleID, "channel": channel], encoding: URLEncoding.default, headers: nil).responseString { (response) in
             switch response.result{
             case .success(let value):

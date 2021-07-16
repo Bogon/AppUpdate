@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'AppUpdate'
 ```
 
+## Usage
+```Swift
+UpdateProvider.shared.updateVersion(update_url: "https://xxxxxxx", channel: "distrbution")
+```
+
 ## Author
 
 Bogon, zhangqixcu@gmail.com
