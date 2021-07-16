@@ -24,8 +24,16 @@ pod 'AppUpdate'
 `AppUpdate` is written in Swift 5.0 Compatible with iOS 10.0+
 
 ## Usage
++ Swift
 ```Swift
 UpdateProvider.shared.updateVersion(update_url: "https://xxxxxxx", channel: "distrbution")
+```
+
++ Objective-C
+```Objective-C
+@import AppUpdate;
+
+[[UpdateProvider shared] updateVersionWithUpdate_url: @"https://xxxxxxx" channel: @"distrbution" bundleID: @"com.xxx.yyy"];
 ```
 
 ## Author
